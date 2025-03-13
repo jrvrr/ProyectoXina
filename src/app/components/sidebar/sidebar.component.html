@@ -1,0 +1,29 @@
+<div class="sidebar" [class.active]="isOpen">
+    <button class="toggle-btn" (click)="toggleMenu()">☰</button>
+    <div class="sidebar">
+        <ul>
+            <li class="sidebar-section">
+                <h3>Inicio</h3>
+                <ul>
+                    <li><a routerLink="/dashboard" class="sidebar-link"><i class="fas fa-home"></i> Dashboard</a></li>
+                </ul>
+            </li>
+            <li class="sidebar-section">
+                <h3>Datos</h3>
+                <ul>
+                    <li><a routerLink="/stats" class="sidebar-link"><i class="fas fa-chart-bar"></i> Estadísticas</a></li>
+                    <li><a routerLink="/" class="sidebar-link"><i class="fas fa-box"></i></a></li>
+                    <li><a routerLink="/" class="sidebar-link"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </li>
+            <li class="sidebar-section">
+                <h3>Más Opciones</h3>
+                <ul>
+                    <li><a routerLink="/" class="sidebar-link"><i class="fas fa-user-plus"></i></a></li>
+                    <li><a routerLink="/" class="sidebar-link"><i class="fas fa-plus-circle"></i></a></li>
+                    <li><a routerLink="/" class="sidebar-link"><i class="fas fa-address-book"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
