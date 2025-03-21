@@ -21,6 +21,7 @@ import { RouterModule } from '@angular/router';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { Color, ScaleType } from '@swimlane/ngx-charts';
+import { XinaComponent } from './pages/xina/xina.component';
 
 
 
@@ -33,7 +34,8 @@ import { Color, ScaleType } from '@swimlane/ngx-charts';
     HomeComponent,
     NosotrosComponent,
     LoginPageComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
+    XinaComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { StatsComponent } from './pages/stats/stats.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
+import { XinaComponent } from './pages/xina/xina.component';
 
 const routes: Routes = [
   {path: '', component: LoginPageComponent},
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'register', component: RegisterPageComponent},
   {path: 'home', component: HomeComponent},
   {path: 'stas', component: StatsComponent},
+  {path: 'xina', component: XinaComponent},
   {path: '**', redirectTo: '/login'}
 ];
 
