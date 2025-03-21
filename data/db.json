@@ -1,0 +1,171 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "usuario": "John Doe",
+        "email": "john.due@gmail.com"
+      }
+    ],
+    "plagas": [
+      {
+        "id": "plaga-pulgones",
+        "nombre": "Pulgones",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Rosas, lechugas, frijoles",
+        "síntomas": "Hojas enrolladas, melaza, presencia de hormigas",
+        "control": "Insecticidas naturales, jabón potásico, mariquitas"
+      },
+      {
+        "id": "plaga-orugas",
+        "nombre": "Orugas",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Coles, tomates, pimientos",
+        "síntomas": "Agujeros en las hojas, excrementos visibles",
+        "control": "Bacillus thuringiensis, recolección manual, redes protectoras"
+      },
+      {
+        "id": "plaga-araña-roja",
+        "nombre": "Araña roja",
+        "tipo": "Ácaro",
+        "huéspedes_comunes": "Judías, berenjenas, fresas",
+        "síntomas": "Hojas amarillentas, telarañas finas",
+        "control": "Acaricidas, aumento de humedad, depredadores naturales"
+      },
+      {
+        "id": "plaga-mosca-blanca",
+        "nombre": "Mosca blanca",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Tomates, pepinos, pimientos",
+        "síntomas": "Hojas amarillas, melaza, fumagina",
+        "control": "Trampas amarillas, jabón potásico, enemigos naturales"
+      },
+      {
+        "id": "plaga-caracoles",
+        "nombre": "Caracoles y babosas",
+        "tipo": "Molusco",
+        "huéspedes_comunes": "Lechugas, coles, fresas",
+        "síntomas": "Agujeros grandes en hojas, rastros de baba",
+        "control": "Cebos de metaldehído, recolección manual, barreras físicas"
+      },
+      {
+        "id": "plaga-nematodos",
+        "nombre": "Nematodos",
+        "tipo": "Gusano",
+        "huéspedes_comunes": "Zanahorias, patatas, tomates",
+        "síntomas": "Raíces nodulosas, crecimiento atrofiado",
+        "control": "Rotación de cultivos, solarización, nematicidas"
+      },
+      {
+        "id": "plaga-trips",
+        "nombre": "Trips",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Cebollas, pepinos, rosas",
+        "síntomas": "Manchas plateadas en hojas, deformación de flores",
+        "control": "Aceite de neem, insecticidas, depredadores naturales"
+      },
+      {
+        "id": "plaga-escarabajos",
+        "nombre": "Escarabajos",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Patatas, berenjenas, judías",
+        "síntomas": "Agujeros en hojas, defoliación",
+        "control": "Recolección manual, insecticidas, rotación de cultivos"
+      },
+      {
+        "id": "plaga-cochinilla",
+        "nombre": "Cochinilla",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Cítricos, higueras, cactus",
+        "síntomas": "Manchas algodonosas, debilitamiento de la planta",
+        "control": "Alcohol isopropílico, jabón potásico, depredadores naturales"
+      },
+      {
+        "id": "plaga-minador",
+        "nombre": "Minador de hojas",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Cítricos, espinacas, acelgas",
+        "síntomas": "Túneles en hojas, hojas secas",
+        "control": "Eliminación de hojas afectadas, insecticidas, enemigos naturales"
+      },
+      {
+        "id": "plaga-mosca-minadora",
+        "nombre": "Mosca minadora",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Espinacas, lechugas, acelgas",
+        "síntomas": "Túneles sinuosos en hojas, reducción de la fotosíntesis",
+        "control": "Trampas adhesivas, eliminación de hojas afectadas, insecticidas"
+      },
+      {
+        "id": "plaga-gusano-cortador",
+        "nombre": "Gusano cortador",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Maíz, tomates, coles",
+        "síntomas": "Plantas cortadas a nivel del suelo, daños en raíces",
+        "control": "Barreras físicas, insecticidas, recolección manual"
+      },
+      {
+        "id": "plaga-gusano-alambre",
+        "nombre": "Gusano alambre",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Patatas, zanahorias, cebollas",
+        "síntomas": "Túneles en raíces y tubérculos, plantas marchitas",
+        "control": "Rotación de cultivos, cebos, solarización"
+      },
+      {
+        "id": "plaga-chinche",
+        "nombre": "Chinche",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Tomates, pimientos, berenjenas",
+        "síntomas": "Manchas necróticas en hojas y frutos, deformación",
+        "control": "Insecticidas, trampas, enemigos naturales"
+      },
+      {
+        "id": "plaga-gorgojo",
+        "nombre": "Gorgojo",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Fresas, frambuesas, legumbres",
+        "síntomas": "Agujeros en hojas y frutos, larvas en raíces",
+        "control": "Insecticidas, rotación de cultivos, eliminación de restos"
+      },
+      {
+        "id": "plaga-araña-blanca",
+        "nombre": "Araña blanca",
+        "tipo": "Ácaro",
+        "huéspedes_comunes": "Cítricos, vid, ornamentales",
+        "síntomas": "Hojas decoloradas, telarañas finas",
+        "control": "Acaricidas, aumento de humedad, depredadores naturales"
+      },
+      {
+        "id": "plaga-escarabajo-patata",
+        "nombre": "Escarabajo de la patata",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Patatas, berenjenas, tomates",
+        "síntomas": "Defoliación, larvas en hojas",
+        "control": "Insecticidas, recolección manual, rotación de cultivos"
+      },
+      {
+        "id": "plaga-mosca-fruta",
+        "nombre": "Mosca de la fruta",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Frutales (mango, guayaba, cítricos)",
+        "síntomas": "Frutos agusanados, caída prematura",
+        "control": "Trampas, insecticidas, eliminación de frutos afectados"
+      },
+      {
+        "id": "plaga-piojo-harinoso",
+        "nombre": "Piojo harinoso",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Cítricos, ornamentales, vid",
+        "síntomas": "Masas algodonosas en hojas y tallos, debilitamiento",
+        "control": "Jabón potásico, alcohol isopropílico, depredadores naturales"
+      },
+      {
+        "id": "plaga-gusano-ejote",
+        "nombre": "Gusano del ejote",
+        "tipo": "Insecto",
+        "huéspedes_comunes": "Frijoles, judías, legumbres",
+        "síntomas": "Agujeros en vainas, larvas en semillas",
+        "control": "Insecticidas, rotación de cultivos, eliminación de restos"
+      }
+    ]
+  }
