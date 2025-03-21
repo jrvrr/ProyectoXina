@@ -1,3 +1,73 @@
+<div class="dashboard-container">
 
+    <div class="panel-header">
+        Estadísticas y administración
+    </div>
+
+    <div class="main-grid">
+        <!-- Bloque de Bienvenida -->
+        <div class="header">
+            <div class="date-time">
+              <h3>{{ currentDateTime }}</h3>
+            </div>
+            <div class="weather">
+              <div>
+                <img src="assets/temp.png" alt="temperature" />
+                <h2>23°C</h2>
+              </div>
+              <div>
+                <img src="assets/sun.png" alt="sol" />
+                <h2>Día soleado</h2>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Gráficos principales -->
+        <div class="stats-grid">
+            <div class="ngx">
+                <h2>Temperatura</h2>
+                <ngx-charts-gauge
+                    [results]="tempData"
+                    [scheme]="colorSchemeTemp"
+                    [min]="0"
+                    [max]="50"
+                    [angleSpan]="240"
+                    [startAngle]="-120"
+                    [units]="'°C'"
+                    [legend]="false">
+                </ngx-charts-gauge>
+            </div>
+
+            <div class="ngx">
+                <h2>Iluminación</h2>
+                <ngx-charts-gauge
+                    [results]="lightData"
+                    [scheme]="colorSchemeLight"
+                    [min]="0"
+                    [max]="100"
+                    [angleSpan]="240"
+                    [startAngle]="-120"
+                    [units]="'%'"
+                    [legend]="false">
+                </ngx-charts-gauge>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Gráficos de barras -->
+    <div class="bar-charts">
+      <ngx-charts-bar-vertical [results]="spendingData"></ngx-charts-bar-vertical>
+      <ngx-charts-bar-horizontal [results]="consumptionData"></ngx-charts-bar-horizontal>
+    </div>
+  
+    <!-- Controles -->
+    <div class="controls">
+      <button mat-button>Cool</button>
+      <button mat-button>Time</button>
+      <button mat-button>Colors</button>
+      <button mat-button>Settings</button>
+    </div>
+</div>
 <app-sidebar></app-sidebar>
 <router-outlet></router-outlet>

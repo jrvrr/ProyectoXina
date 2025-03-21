@@ -18,6 +18,12 @@ import { IonicStorageModule } from '@ionic/storage-angular';
 
 import { RouterModule } from '@angular/router';
 
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
+import { Color, ScaleType } from '@swimlane/ngx-charts';
+
+
+
 
 @NgModule({
   declarations: [
@@ -35,6 +41,7 @@ import { RouterModule } from '@angular/router';
     MaterialModule,
     ReactiveFormsModule,
     RouterModule,
+    NgxChartsModule,
     IonicStorageModule.forRoot()
   ],
   providers: [provideHttpClient()],
