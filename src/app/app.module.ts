@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { StatsComponent } from './pages/stats/stats.component';
 import { HomeComponent } from './pages/home/home.component';
+
+import { NosotrosComponent } from './pages/nosotros/nosotros.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { RegisterPageComponent } from './pages/register-page/register-page.component';
+
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { PlaguesComponent } from './pages/plagues/plagues.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -21,12 +26,26 @@ import { PlagaDetailComponent } from './components/plaga-detail/plaga-detail.com
 import { PlagaImagePipe } from './pipes/plaga-image.pipe';
 
 
+import { RouterModule } from '@angular/router';
+
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
+import { Color, ScaleType } from '@swimlane/ngx-charts';
+import { XinaComponent } from './pages/xina/xina.component';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     StatsComponent,
     HomeComponent,
+    NosotrosComponent,
+    LoginPageComponent,
+    RegisterPageComponent,
+    XinaComponent
     AboutusComponent,
     PlaguesComponent,
     HeaderComponent,
@@ -41,6 +60,9 @@ import { PlagaImagePipe } from './pipes/plaga-image.pipe';
     AppRoutingModule,
     MaterialModule,
     ReactiveFormsModule,
+    RouterModule,
+    NgxChartsModule,
+    IonicStorageModule.forRoot()
     IonicStorageModule.forRoot(),
     RouterLink
     
