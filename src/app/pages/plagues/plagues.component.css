@@ -1,0 +1,8 @@
+.plagas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+background-position: center;  }
