@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent {
+
   isOpen = false;
 
+  // Alterna entre abrir y cerrar
   toggleMenu() {
     this.isOpen = !this.isOpen;
   }

@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { StatsComponent } from './pages/stats/stats.component';
 import { HomeComponent } from './pages/home/home.component';
+
+import { NosotrosComponent } from './pages/nosotros/nosotros.component';
+
 import { provideHttpClient } from '@angular/common/http';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
@@ -19,6 +22,7 @@ import { IonicStorageModule } from '@ionic/storage-angular';
     SidebarComponent,
     StatsComponent,
     HomeComponent,
+    NosotrosComponent
     LoginPageComponent,
     RegisterPageComponent
   ],
