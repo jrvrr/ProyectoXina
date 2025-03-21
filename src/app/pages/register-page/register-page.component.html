@@ -1,0 +1,42 @@
+<!-- <mat-card class="register-card">
+    <div class="register-container">
+      <div class="left-panel">
+        <h1>¡Regístrate!</h1>
+        <form (ngSubmit)="onSubmit()" [formGroup]="registerForm">
+          <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Usuario</mat-label>
+            <input matInput formControlName="usuario" type="text" required />
+            <mat-error *ngIf="registerForm.get('usuario')?.hasError('required')">Este campo es obligatorio</mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Contraseña</mat-label>
+            <input matInput formControlName="contrasenia" type="password" required />
+            <mat-error *ngIf="registerForm.get('contrasenia')?.hasError('required')">La contraseña es obligatoria</mat-error>
+            <mat-error *ngIf="registerForm.get('contrasenia')?.hasError('minlength')">Debe tener al menos 6 caracteres</mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="fill" class="full-width">
+            <mat-label>Confirmar Contraseña</mat-label>
+            <input matInput formControlName="confirmContrasenia" type="password" required />
+            <mat-error *ngIf="registerForm.get('confirmContrasenia')?.hasError('required')">Debes confirmar la contraseña</mat-error>
+          </mat-form-field>
+  
+          <p *ngIf="passwordMismatch" class="error-message">⚠️ Las contraseñas no coinciden</p>
+  
+          <button mat-raised-button color="primary" class="full-width" type="submit" [disabled]="registerForm.invalid || passwordMismatch">
+            Registrarse
+          </button>
+        </form>
+  
+        <p>¿Ya tienes una cuenta? <a routerLink="/login">Inicia sesión aquí</a></p>
+      </div>
+  
+      <div class="right-panel">
+        <img src="/assets/images/registerimage.png" alt="Game Characters" class="game-art">
+        <h1 class="logo1">PanaGamers!</h1>
+        <h3 class="logo">Descubre juegos!</h3>
+      </div>
+    </div>
+  </mat-card>
+   -->

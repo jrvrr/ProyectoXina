@@ -8,7 +8,9 @@
   .hero {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #000000, #296935);
+    background-image: url('/assets/b4.jpg');
+    background-size: cover;
+background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,8 +113,9 @@
   /* Sección de Características */
 .features {
     width: 100%;
-    background: linear-gradient(to right, #4b4b4b, #296935);
-    color: white;
+    background-image: url('/assets/trigo.gif');
+    background-size: cover;
+background-position: center;     color: white;
     text-align: center;
     padding: 50px 20px;
   }
@@ -202,8 +205,9 @@
   /* Sección de Testimonios */
   .testimonials {
     width: 100%;
-    background: linear-gradient(to right, #fdfdfd, #296935);
-    color: white;
+    background-image: url('/assets/b2.jpg');
+    background-size: cover;
+background-position: center;    color: white;
     text-align: center;
     padding: 50px 20px;
   }

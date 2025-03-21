@@ -1,0 +1,48 @@
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.rotate{
+    translate: 0 30%;
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+
+
+@keyframes move {
+    0%{
+        top: 0%;
+        left: 0%;
+    }
+
+    100%{
+        top: -200%;
+        left: -200%;
+    }
+}
+
+.move{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+    scale: 4;
+
+    translate: 0 30%;
+    animation-name: move;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}

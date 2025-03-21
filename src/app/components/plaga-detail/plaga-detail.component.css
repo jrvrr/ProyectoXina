@@ -1,0 +1,84 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Contenedor principal */
+  .plaga-detail-container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/assets/fondo.jpg');
+    background-size: cover;
+background-position: center;    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Tarjeta de la plaga */
+  .plaga-detail-card {
+    max-width: 600px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+  }
+  
+  /* Imagen de la plaga */
+  .plaga-detail-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Título y subtítulo */
+  .plaga-detail-card mat-card-title {
+    font-size: 36px;
+    color: #dabc4d;
+  }
+  
+  .plaga-detail-card mat-card-subtitle {
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
+  /* Contenido de la tarjeta */
+  .plaga-detail-card mat-card-content {
+    padding: 20px;
+  }
+  
+  .plaga-detail-card mat-card-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .plaga-detail-card mat-card-content strong {
+    color: #dabc4d;
+  }
+  
+  /* Acciones de la tarjeta */
+  .plaga-detail-card mat-card-actions {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Botón de regresar */
+  .plaga-detail-card button {
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .plaga-detail-card button:hover {
+    background: #0056b3;
+  }

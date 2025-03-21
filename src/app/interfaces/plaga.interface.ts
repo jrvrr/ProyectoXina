@@ -2,8 +2,8 @@ export interface Plaga {
     id: string;
     nombre: string;
     tipo: TipoPlaga;
-    huéspedes_comunes: string;
-    síntomas: string;
+    huespedes_comunes: string;
+    sintomas: string;
     control: string;
     imagen?: string; 
 }

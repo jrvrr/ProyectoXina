@@ -1,0 +1,7 @@
+<app-sidebar></app-sidebar>
+<router-outlet></router-outlet>
+<div class="plagas-container">
+    <app-plaga-card *ngFor="let plaga of plagas" [plaga]="plaga"></app-plaga-card>
+  </div>
+
+  <app-footer></app-footer>
