@@ -1,0 +1,29 @@
+<mat-card id="card" class="plaga-card mat-elevation-z4">
+    <mat-card-header>
+      <mat-card-title>{{ plaga.nombre }}</mat-card-title>
+      <mat-card-subtitle>{{ plaga.tipo }}</mat-card-subtitle>
+    </mat-card-header>
+  
+    <img [src]="plaga | plagaImage" alt="Imagen de la plaga" mat-card-image />  
+    <mat-card-content class="mt-2">
+      <p>
+        <strong>Huéspedes comunes:</strong> {{ plaga.huespedes_comunes }}
+        <br />
+        <mat-chip-listbox>
+          <mat-chip *ngFor="let sintoma of (plaga.sintomas?.split(',') || []).slice(0, 3)" class="plaga-chip">
+            {{ sintoma }}
+          </mat-chip>
+        </mat-chip-listbox>
+      </p>
+    </mat-card-content>
+  
+    <mat-divider></mat-divider>
+  
+    <mat-card-actions align="end">
+      <span class="spacer"></span>
+      <button mat-raised-button color="accent" [routerLink]="['/plagas', plaga.id]">
+        <mat-icon>more_horiz</mat-icon>
+        Más
+      </button>
+    </mat-card-actions>
+  </mat-card>

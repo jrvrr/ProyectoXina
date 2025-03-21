@@ -1,0 +1,24 @@
+<div *ngIf="plaga" class="plaga-detail-container">
+    <mat-card class="plaga-detail-card mat-elevation-z8">
+      <mat-card-header>
+        <mat-card-title>{{ plaga.nombre }}</mat-card-title>
+        <mat-card-subtitle>{{ plaga.tipo }}</mat-card-subtitle>
+      </mat-card-header>
+  
+      <img [src]="plaga | plagaImage" alt="Imagen de la plaga" mat-card-image />  
+      <mat-card-content class="mt-2">
+        <p><strong>Huéspedes comunes:</strong> {{ plaga.huespedes_comunes }}</p>
+        <p><strong>Síntomas:</strong> {{ plaga.sintomas }}</p>
+        <p><strong>Recomendación:</strong> {{ plaga.control }}</p>
+      </mat-card-content>
+  
+      <mat-divider></mat-divider>
+  
+      <mat-card-actions align="end">
+        <button mat-raised-button color="primary" (click)="goBack()">
+          <mat-icon>arrow_back</mat-icon>
+          Regresar
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>

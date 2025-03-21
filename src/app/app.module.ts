@@ -12,6 +12,13 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideHttpClient } from '@angular/common/http';
+import { MaterialModule } from './material/material.module';
+import { PlagaCardComponent } from './components/plaga-card/plaga-card.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { IonicStorageModule } from '@ionic/storage-angular';
+import { RouterLink } from '@angular/router';
+import { PlagaDetailComponent } from './components/plaga-detail/plaga-detail.component';
+import { PlagaImagePipe } from './pipes/plaga-image.pipe';
 
 
 @NgModule({
@@ -24,11 +31,19 @@ import { provideHttpClient } from '@angular/common/http';
     PlaguesComponent,
     HeaderComponent,
     FooterComponent,
+    PlagaCardComponent,
+    PlagaDetailComponent,
+    PlagaImagePipe,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    ReactiveFormsModule,
+    IonicStorageModule.forRoot(),
+    RouterLink
+    
   ],
   providers: [
     provideClientHydration(),
