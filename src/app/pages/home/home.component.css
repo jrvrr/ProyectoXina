@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/assets/b4.jpg');
+    background-size: cover;
+background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #cfc086;
+  }
+  
+  .content {
+    text-align: left;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  h1 span {
+    color: #dabc4d;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 15px;
+    opacity: 0.8;
+  }
+  
+  .email-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-box input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+  }
+  
+  .email-box button {
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .email-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .astronaut img {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    width: 40%;
+  }
+  /* Sección de Características */
+.features {
+    width: 100%;
+    background-image: url('/assets/trigo.gif');
+    background-size: cover;
+background-position: center;     color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .feature h3 {
+    color: #dabc4d;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .feature:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+ /* Sección "Cómo Funciona" */
+.how-it-works {
+    width: 100%;
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .how-it-works h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    background: rgba(251, 248, 248, 0.568);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .step img {
+    width: 200px; /* Ajusta según el tamaño que necesites */
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .step h3 {
+    color: #dabc4d;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  
+  /* Sección de Testimonios */
+  .testimonials {
+    width: 100%;
+    background-image: url('/assets/b2.jpg');
+    background-size: cover;
+background-position: center;    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 10px auto;
+    transition: 0.3s;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  .testimonial h4 {
+    margin-top: 10px;
+    color: #dabc4d;
+  }
+  
+  .testimonial:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Sección de Contacto */
+  .contact {
+    width: 100%;
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact input,
+  .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+  }
+  
+  .contact input::placeholder,
+  .contact textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .contact button {
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact button:hover {
+    background: #0056b3;
+  }
+  
